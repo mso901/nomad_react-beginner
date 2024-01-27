@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/nomad_react-beginner/static/js/main.ce4060ef.js",
+    "index.html": "/nomad_react-beginner/index.html",
+    "main.ce4060ef.js.map": "/nomad_react-beginner/static/js/main.ce4060ef.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ce4060ef.js"
+  ]
+}
