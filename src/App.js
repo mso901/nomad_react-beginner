@@ -5,16 +5,14 @@ import Detail from './routes/Detail';
 function App() {
   return (
     <Router>
-      {/*Route를 찾고 컴포넌트를 렌더링함.한번에 하나의 Route만 렌더링함.*/}
       <Switch>
-        {/*URL*/}
         <Route path="/hello">
           <h1>Hello</h1>
         </Route>
-        <Route path="/movie">
+        {/*url에 영화마다의 아이디를 나타나게 해줌. id가 아닌 다른 단어도 상관없음.*/}
+        <Route path="/movie/:id">
           <Detail />
         </Route>
-        {/*유저가 홈화면으로 갈때 사용할 Route, Home Route를 렌더링함.*/}
         <Route path="/">
           <Home />
         </Route>
